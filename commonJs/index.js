@@ -10,3 +10,4 @@ arr.map((el) => {
 })
 console.log(app)
 console.log(arr)
+console.log('hi')
