@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconst app = document.getElementById('App')\nconst arr = [4, 4, 4, 4, 4, 4]\nlodash__WEBPACK_IMPORTED_MODULE_0___default().fill(arr, 6)\narr.map((el) => {\n  const p = document.createElement('p')\n  p.innerHTML = el\n  app.appendChild(p)\n})\nconsole.log(app)\nconsole.log(arr)\n\n\n//# sourceURL=webpack://commonjs/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n\nvar app = document.getElementById('App');\nvar arr = [4, 4, 4, 4, 4, 4];\n\nlodash__WEBPACK_IMPORTED_MODULE_0___default().fill(arr, 6);\n\narr.map(function (el) {\n  var p = document.createElement('p');\n  p.innerHTML = el;\n  app.appendChild(p);\n});\nconsole.log(app);\nconsole.log(arr);\n\n//# sourceURL=webpack://commonjs/./index.js?");
 
 /***/ }),
 

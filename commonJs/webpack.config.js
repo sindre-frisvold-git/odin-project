@@ -15,6 +15,21 @@ module.exports = {
     filename: 'bundle.js',
   },
 
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+          },
+        },
+      },
+    ],
+  },
+
   // Default mode for Webpack is production.
   // Depending on mode Webpack will apply different things
   // on the final bundle. For now, we don't need production's JavaScript
