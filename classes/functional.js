@@ -13,6 +13,13 @@ function Book(title, author, pages, read = false) {
     )
 }
 
-function addBookToLibrary() {
-  // do stuff here
+const myDiary = new Book('diary', 'me', 6, true)
+
+function addBookToLibrary(book) {
+  myLibrary.push(book)
 }
+
+addBookToLibrary(myDiary)
+
+console.log(myLibrary)
+myDiary.info()
